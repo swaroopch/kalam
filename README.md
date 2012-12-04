@@ -5,6 +5,7 @@ I needed a live preview of Pandoc text while writing, something like [Mou.app](h
 
 # How to run
 
-1. Install [node-webkit](https://github.com/rogerwang/node-webkit) command
-2. Fetch this repository, perhaps using the "Zip Download" button
-3. Run the node-webkit command with this app folder: `nw kalam`
+1. [Install pandoc](http://johnmacfarlane.net/pandoc/installing.html)
+2. [Install node-webkit command](https://github.com/rogerwang/node-webkit)
+3. Clone this repository
+4. Run the node-webkit command with this app folder: `nw kalam` or `open -a node-webkit kalam`.
