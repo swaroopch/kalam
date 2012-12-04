@@ -1,0 +1,17 @@
+{
+  "name": "kalam",
+  "main": "index.html",
+  "description": "Live Preview of Pandoc text",
+  "keywords": ["pandoc", "markdown", "editor"],
+  "licenses": [{
+    "type": "apache",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+  }],
+  "window": {
+    "toolbar": true,
+    "min_width": 1024,
+    "min_height": 768,
+    "width": 1024,
+    "height": 768
+  }
+}
