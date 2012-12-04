@@ -18,7 +18,7 @@ $(function() {
                                     "-f",
                                     "markdown",
                                     "-t",
-                                    "html",
+                                    "html5",
                                     "-i",
                                     tmp_source_file];
             exec(pandoc_command, function(err, out, code) {
