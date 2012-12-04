@@ -16,13 +16,16 @@
     <body>
         <div class="row">
             <div id="text-section" class="six columns">
+                <h2>Pandoc text</h2>
                 <div class="panel">
-                    Text input here
+                    <textarea id="source-text" rows="50"></textarea>
                 </div>
             </div>
             <div id="preview-section" class="six columns">
+                <h2>Preview</h2>
                 <div class="panel">
-                    Preview here
+                    <div id="preview-html">
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,5 +36,6 @@
 
         <!-- Initialize JS Plugins -->
         <script src="foundation/javascripts/app.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
