@@ -3,7 +3,7 @@
 
 I needed a live preview of Pandoc text while writing, something like [Mou.app](http://mouapp.com) but for Pandoc (and not plain Markdown) so that it is easy to [work on my books](http://www.swaroopch.com/blog/byte-of-python-pandoc/), so I hacked this up.
 
-![Kalam Screenshot](http://files.swaroopch.com/kalam/kalam-screenshot.png)
+![Kalam Screenshot](http://files.swaroopch.com/kalam/Screen-Shot-2012-12-04-at-1.51.16-PM.png)
 
 # How to run
 
