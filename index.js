@@ -5,6 +5,7 @@ $(function() {
 
     var tmpSourceFile = os.tmpDir() + "kalam.txt";
 
+
     function render() {
         var text = $("#source-text").val();
 
@@ -27,7 +28,6 @@ $(function() {
         });
     }
 
-    window.setInterval(render, 3000);
 
     function readFile(filename) {
         fs.readFile(filename, function(err, data) {
@@ -40,16 +40,19 @@ $(function() {
         });
     }
 
+
     function writeFile(filename, content) {
         fs.writeFile(filename, content, "utf8", function() {
             $("#save-success-dialog").reveal();
         });
     }
 
+
     $("#choose-file").on("change", function(eventData) {
         var filename = $("#choose-file").val();
         readFile(filename);
     });
+
 
     $(".save-to-file").on("click", function() {
         var filename = $("#choose-file").val();
@@ -58,4 +61,7 @@ $(function() {
         }
         writeFile(filename, $("#source-text").val());
     });
+
+
+    window.setInterval(render, 3000);
 });
