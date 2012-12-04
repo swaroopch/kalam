@@ -2,8 +2,9 @@ $(function() {
     var os = require("os");
     var fs = require("fs");
     var exec = require("exec");
+    var path = require('path');
 
-    var tmpSourceFile = os.tmpDir() + "kalam.txt";
+    var tmpSourceFile = path.join(os.tmpDir(), "kalam.txt");
 
 
     function render() {
