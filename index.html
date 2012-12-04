@@ -16,10 +16,22 @@
     </head>
     <body>
         <div class="row">
+            <div id="choose-file-section" class="twelve columns">
+                <div class="panel">
+                    <h2>Choose File</h2>
+                    <input id="choose-file" type="file"/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <div id="text-section" class="six columns">
                 <h2>Pandoc text</h2>
                 <div class="panel">
+                    <button class="button save-to-file">Save</button>
+                    <br/>
+                    <br/>
                     <textarea id="source-text" rows="50"></textarea>
+                    <button class="button save-to-file">Save</button>
                 </div>
             </div>
             <div id="preview-section" class="six columns">
@@ -29,6 +41,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div id="save-success-dialog" class="reveal-modal">
+            <p>
+                Saved!
+            </p>
         </div>
 
         <!-- Included JS Files (Compressed) -->
